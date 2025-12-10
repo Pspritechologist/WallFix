@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreSilver
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_silver.rsi
+    sprite: Structures/Walls/rock/ore_silver.rsi
 
 - type: entity
   id: WallRockHonkerSilver

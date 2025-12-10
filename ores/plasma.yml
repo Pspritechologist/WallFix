@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OrePlasma
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_plasma.rsi
+    sprite: Structures/Walls/rock/ore_plasma.rsi
 
 - type: entity
   id: WallRockHonkerPlasma

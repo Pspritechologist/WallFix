@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreSalt
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_salt.rsi
+    sprite: Structures/Walls/rock/ore_salt.rsi
 
 - type: entity
   id: WallRockHonkerSalt

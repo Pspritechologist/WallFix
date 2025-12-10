@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreQuartz
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_quartz.rsi
+    sprite: Structures/Walls/rock/ore_quartz.rsi
 
 - type: entity
   id: WallRockHonkerQuartz

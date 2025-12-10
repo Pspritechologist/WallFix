@@ -36,19 +36,19 @@
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+      sprite: Structures/Walls/Rock/base_asteroid.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+      sprite: Structures/Walls/Rock/base_asteroid.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+      sprite: Structures/Walls/Rock/base_asteroid.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+      sprite: Structures/Walls/Rock/base_asteroid.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+      sprite: Structures/Walls/Rock/base_asteroid.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore
 
@@ -69,19 +69,19 @@
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_honker.rsi
+      sprite: Structures/Walls/Rock/base_honker.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_honker.rsi
+      sprite: Structures/Walls/Rock/base_honker.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_honker.rsi
+      sprite: Structures/Walls/Rock/base_honker.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_honker.rsi
+      sprite: Structures/Walls/Rock/base_honker.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_honker.rsi
+      sprite: Structures/Walls/Rock/base_honker.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore
 
@@ -94,23 +94,23 @@
   description: A rocky asteroid.
   components:
   - type: Icon
-    sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+    sprite: Structures/Walls/Rock/base_iron_rock.rsi
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+      sprite: Structures/Walls/Rock/base_iron_rock.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+      sprite: Structures/Walls/Rock/base_iron_rock.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+      sprite: Structures/Walls/Rock/base_iron_rock.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+      sprite: Structures/Walls/Rock/base_iron_rock.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+      sprite: Structures/Walls/Rock/base_iron_rock.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore
 
@@ -130,23 +130,23 @@
   parent: WallRockBase
   components:
   - type: Icon
-    sprite: /Structures/Walls/Rock/base_basalt.rsi
+    sprite: Structures/Walls/Rock/base_basalt.rsi
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_basalt.rsi
+      sprite: Structures/Walls/Rock/base_basalt.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_basalt.rsi
+      sprite: Structures/Walls/Rock/base_basalt.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_basalt.rsi
+      sprite: Structures/Walls/Rock/base_basalt.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_basalt.rsi
+      sprite: Structures/Walls/Rock/base_basalt.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_basalt.rsi
+      sprite: Structures/Walls/Rock/base_basalt.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore
 
@@ -157,23 +157,23 @@
   parent: WallRockBase
   components:
   - type: Icon
-    sprite: /Structures/Walls/Rock/base_snow.rsi
+    sprite: Structures/Walls/Rock/base_snow.rsi
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_snow.rsi
+      sprite: Structures/Walls/Rock/base_snow.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_snow.rsi
+      sprite: Structures/Walls/Rock/base_snow.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_snow.rsi
+      sprite: Structures/Walls/Rock/base_snow.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_snow.rsi
+      sprite: Structures/Walls/Rock/base_snow.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_snow.rsi
+      sprite: Structures/Walls/Rock/base_snow.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore
 
@@ -184,23 +184,23 @@
   parent: WallRockBase
   components:
   - type: Icon
-    sprite: /Structures/Walls/Rock/base_sand.rsi
+    sprite: Structures/Walls/Rock/base_sand.rsi
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_sand.rsi
+      sprite: Structures/Walls/Rock/base_sand.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_sand.rsi
+      sprite: Structures/Walls/Rock/base_sand.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_sand.rsi
+      sprite: Structures/Walls/Rock/base_sand.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_sand.rsi
+      sprite: Structures/Walls/Rock/base_sand.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_sand.rsi
+      sprite: Structures/Walls/Rock/base_sand.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore
 
@@ -211,23 +211,23 @@
   parent: WallRockBase
   components:
   - type: Icon
-    sprite: /Structures/Walls/Rock/base_chromite.rsi
+    sprite: Structures/Walls/Rock/base_chromite.rsi
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_chromite.rsi
+      sprite: Structures/Walls/Rock/base_chromite.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_chromite.rsi
+      sprite: Structures/Walls/Rock/base_chromite.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_chromite.rsi
+      sprite: Structures/Walls/Rock/base_chromite.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_chromite.rsi
+      sprite: Structures/Walls/Rock/base_chromite.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_chromite.rsi
+      sprite: Structures/Walls/Rock/base_chromite.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore
 
@@ -238,22 +238,22 @@
   parent: WallRockBase
   components:
   - type: Icon
-    sprite: /Structures/Walls/Rock/base_andesite.rsi
+    sprite: Structures/Walls/Rock/base_andesite.rsi
   - type: Sprite
     layers:
     - state: base
-      sprite: /Structures/Walls/Rock/base_andesite.rsi
+      sprite: Structures/Walls/Rock/base_andesite.rsi
     - map: [ "enum.EdgeLayer.South" ]
       state: south
-      sprite: /Structures/Walls/Rock/base_andesite.rsi
+      sprite: Structures/Walls/Rock/base_andesite.rsi
     - map: [ "enum.EdgeLayer.East" ]
       state: east
-      sprite: /Structures/Walls/Rock/base_andesite.rsi
+      sprite: Structures/Walls/Rock/base_andesite.rsi
     - map: [ "enum.EdgeLayer.North" ]
       state: north
-      sprite: /Structures/Walls/Rock/base_andesite.rsi
+      sprite: Structures/Walls/Rock/base_andesite.rsi
     - map: [ "enum.EdgeLayer.West" ]
       state: west
-      sprite: /Structures/Walls/Rock/base_andesite.rsi
+      sprite: Structures/Walls/Rock/base_andesite.rsi
     - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
       state: ore

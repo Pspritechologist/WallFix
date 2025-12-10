@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreBananium
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_bananium.rsi
+    sprite: Structures/Walls/rock/ore_bananium.rsi
 
 - type: entity
   id: WallRockHonkerBananium

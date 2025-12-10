@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreCoal
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_coal.rsi
+    sprite: Structures/Walls/rock/ore_coal.rsi
 
 - type: entity
   id: WallRockHonkerCoal

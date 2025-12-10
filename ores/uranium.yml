@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreUranium
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_uranium.rsi
+    sprite: Structures/Walls/rock/ore_uranium.rsi
 
 - type: entity
   id: WallRockHonkerUranium

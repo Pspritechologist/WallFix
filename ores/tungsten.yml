@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreTungsten
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_tungsten.rsi
+    sprite: Structures/Walls/rock/ore_tungsten.rsi
 
 - type: entity
   id: WallRockHonkerTungsten

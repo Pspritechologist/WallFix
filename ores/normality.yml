@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreNormality
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_normality.rsi
+    sprite: Structures/Walls/rock/ore_normality.rsi
 
 - type: entity
   id: WallRockHonkerNormality

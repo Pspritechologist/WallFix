@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreAluminum
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_Aluminum.rsi
+    sprite: Structures/Walls/rock/ore_Aluminum.rsi
 
 - type: entity
   id: WallRockHonkerAluminum

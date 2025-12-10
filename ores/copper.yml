@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreCopper
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_copper.rsi
+    sprite: Structures/Walls/rock/ore_copper.rsi
 
 - type: entity
   id: WallRockHonkerCopper

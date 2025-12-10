@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreLead
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_lead.rsi
+    sprite: Structures/Walls/rock/ore_lead.rsi
 
 - type: entity
   id: WallRockHonkerLead

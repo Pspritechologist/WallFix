@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreGold
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_gold.rsi
+    sprite: Structures/Walls/rock/ore_gold.rsi
 
 - type: entity
   id: WallRockHonkerGold

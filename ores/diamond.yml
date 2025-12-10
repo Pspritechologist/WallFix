@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreDiamond
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_diamond.rsi
+    sprite: Structures/Walls/rock/ore_diamond.rsi
 
 - type: entity
   id: WallRockHonkerDiamond

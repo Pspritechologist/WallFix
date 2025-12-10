@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreTin
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_tin.rsi
+    sprite: Structures/Walls/rock/ore_tin.rsi
 
 - type: entity
   id: WallRockHonkerTin

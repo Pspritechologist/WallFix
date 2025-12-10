@@ -7,7 +7,7 @@
     oreChance: 1.0
     currentOre: OreArtifactFragment
   - type: Sprite
-    sprite: /Structures/Walls/rock/ore_artifact_fragment.rsi
+    sprite: Structures/Walls/rock/ore_artifact_fragment.rsi
 
 - type: entity
   id: WallRockHonkerArtifactFragment
