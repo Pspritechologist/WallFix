@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockPlasmaBase
+  description: An ore vein rich with plasma.
+  suffix: Plasma
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OrePlasma
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_plasma.rsi
+
+- type: entity
+  id: WallRockHonkerPlasma
+  parent: [ WallRockHonkerBase, WallRockPlasmaBase ]
+
+- type: entity
+  id: WallRockAsteroidPlasma
+  parent: [ WallRockAsteroidBase, WallRockPlasmaBase ]
+
+- type: entity
+  id: WallRockIronRockPlasma
+  parent: [ WallRockIronRockBase, WallRockPlasmaBase ]
+
+- type: entity
+  id: WallRockBasaltPlasma
+  parent: [ WallRockBasaltBase, WallRockPlasmaBase ]
+
+- type: entity
+  id: WallRockSnowPlasma
+  parent: [ WallRockSnowBase, WallRockPlasmaBase ]
+
+- type: entity
+  id: WallRockSandPlasma
+  parent: [ WallRockSandBase, WallRockPlasmaBase ]
+
+- type: entity
+  id: WallRockChromitePlasma
+  parent: [ WallRockChromiteBase, WallRockPlasmaBase ]
+
+- type: entity
+  id: WallRockAndesitePlasma
+  parent: [ WallRockAndesiteBase, WallRockPlasmaBase ]

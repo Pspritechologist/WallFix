@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockTungstenBase
+  description: An ore vein rich with scheelite.
+  suffix: Tungsten
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreTungsten
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_tungsten.rsi
+
+- type: entity
+  id: WallRockHonkerTungsten
+  parent: [ WallRockHonkerBase, WallRockTungstenBase ]
+
+- type: entity
+  id: WallRockAsteroidTungsten
+  parent: [ WallRockAsteroidBase, WallRockTungstenBase ]
+
+- type: entity
+  id: WallRockIronRockTungsten
+  parent: [ WallRockIronRockBase, WallRockTungstenBase ]
+
+- type: entity
+  id: WallRockBasaltTungsten
+  parent: [ WallRockBasaltBase, WallRockTungstenBase ]
+
+- type: entity
+  id: WallRockSnowTungsten
+  parent: [ WallRockSnowBase, WallRockTungstenBase ]
+
+- type: entity
+  id: WallRockSandTungsten
+  parent: [ WallRockSandBase, WallRockTungstenBase ]
+
+- type: entity
+  id: WallRockChromiteTungsten
+  parent: [ WallRockChromiteBase, WallRockTungstenBase ]
+
+- type: entity
+  id: WallRockAndesiteTungsten
+  parent: [ WallRockAndesiteBase, WallRockTungstenBase ]

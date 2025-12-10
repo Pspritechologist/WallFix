@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockArtifactFragmentBase
+  description: A rock wall. What's that sticking out of it?
+  suffix: ArtifactFragment
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreArtifactFragment
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_artifact_fragment.rsi
+
+- type: entity
+  id: WallRockHonkerArtifactFragment
+  parent: [ WallRockHonkerBase, WallRockArtifactFragmentBase ]
+
+- type: entity
+  id: WallRockAsteroidArtifactFragment
+  parent: [ WallRockAsteroidBase, WallRockArtifactFragmentBase ]
+
+- type: entity
+  id: WallRockIronRockArtifactFragment
+  parent: [ WallRockIronRockBase, WallRockArtifactFragmentBase ]
+
+- type: entity
+  id: WallRockBasaltArtifactFragment
+  parent: [ WallRockBasaltBase, WallRockArtifactFragmentBase ]
+
+- type: entity
+  id: WallRockSnowArtifactFragment
+  parent: [ WallRockSnowBase, WallRockArtifactFragmentBase ]
+
+- type: entity
+  id: WallRockSandArtifactFragment
+  parent: [ WallRockSandBase, WallRockArtifactFragmentBase ]
+
+- type: entity
+  id: WallRockChromiteArtifactFragment
+  parent: [ WallRockChromiteBase, WallRockArtifactFragmentBase ]
+
+- type: entity
+  id: WallRockAndesiteArtifactFragment
+  parent: [ WallRockAndesiteBase, WallRockArtifactFragmentBase ]

@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockQuartzBase
+  description: An ore vein rich with quartz.
+  suffix: Quartz
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreQuartz
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_quartz.rsi
+
+- type: entity
+  id: WallRockHonkerQuartz
+  parent: [ WallRockHonkerBase, WallRockQuartzBase ]
+
+- type: entity
+  id: WallRockAsteroidQuartz
+  parent: [ WallRockAsteroidBase, WallRockQuartzBase ]
+
+- type: entity
+  id: WallRockIronRockQuartz
+  parent: [ WallRockIronRockBase, WallRockQuartzBase ]
+
+- type: entity
+  id: WallRockBasaltQuartz
+  parent: [ WallRockBasaltBase, WallRockQuartzBase ]
+
+- type: entity
+  id: WallRockSnowQuartz
+  parent: [ WallRockSnowBase, WallRockQuartzBase ]
+
+- type: entity
+  id: WallRockSandQuartz
+  parent: [ WallRockSandBase, WallRockQuartzBase ]
+
+- type: entity
+  id: WallRockChromiteQuartz
+  parent: [ WallRockChromiteBase, WallRockQuartzBase ]
+
+- type: entity
+  id: WallRockAndesiteQuartz
+  parent: [ WallRockAndesiteBase, WallRockQuartzBase ]

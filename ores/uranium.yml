@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockUraniumBase
+  description: An ore vein rich with uranium.
+  suffix: Uranium
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreUranium
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_uranium.rsi
+
+- type: entity
+  id: WallRockHonkerUranium
+  parent: [ WallRockHonkerBase, WallRockUraniumBase ]
+
+- type: entity
+  id: WallRockAsteroidUranium
+  parent: [ WallRockAsteroidBase, WallRockUraniumBase ]
+
+- type: entity
+  id: WallRockIronRockUranium
+  parent: [ WallRockIronRockBase, WallRockUraniumBase ]
+
+- type: entity
+  id: WallRockBasaltUranium
+  parent: [ WallRockBasaltBase, WallRockUraniumBase ]
+
+- type: entity
+  id: WallRockSnowUranium
+  parent: [ WallRockSnowBase, WallRockUraniumBase ]
+
+- type: entity
+  id: WallRockSandUranium
+  parent: [ WallRockSandBase, WallRockUraniumBase ]
+
+- type: entity
+  id: WallRockChromiteUranium
+  parent: [ WallRockChromiteBase, WallRockUraniumBase ]
+
+- type: entity
+  id: WallRockAndesiteUranium
+  parent: [ WallRockAndesiteBase, WallRockUraniumBase ]

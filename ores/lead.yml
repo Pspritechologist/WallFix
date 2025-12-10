@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockLeadBase
+  description: An ore vein rich with lead.
+  suffix: Lead
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreLead
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_lead.rsi
+
+- type: entity
+  id: WallRockHonkerLead
+  parent: [ WallRockHonkerBase, WallRockLeadBase ]
+
+- type: entity
+  id: WallRockAsteroidLead
+  parent: [ WallRockAsteroidBase, WallRockLeadBase ]
+
+- type: entity
+  id: WallRockIronRockLead
+  parent: [ WallRockIronRockBase, WallRockLeadBase ]
+
+- type: entity
+  id: WallRockBasaltLead
+  parent: [ WallRockBasaltBase, WallRockLeadBase ]
+
+- type: entity
+  id: WallRockSnowLead
+  parent: [ WallRockSnowBase, WallRockLeadBase ]
+
+- type: entity
+  id: WallRockSandLead
+  parent: [ WallRockSandBase, WallRockLeadBase ]
+
+- type: entity
+  id: WallRockChromiteLead
+  parent: [ WallRockChromiteBase, WallRockLeadBase ]
+
+- type: entity
+  id: WallRockAndesiteLead
+  parent: [ WallRockAndesiteBase, WallRockLeadBase ]

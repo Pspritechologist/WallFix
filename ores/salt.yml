@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockSaltBase
+  description: An ore vein rich with salt.
+  suffix: Salt
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreSalt
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_salt.rsi
+
+- type: entity
+  id: WallRockHonkerSalt
+  parent: [ WallRockHonkerBase, WallRockSaltBase ]
+
+- type: entity
+  id: WallRockAsteroidSalt
+  parent: [ WallRockAsteroidBase, WallRockSaltBase ]
+
+- type: entity
+  id: WallRockIronRockSalt
+  parent: [ WallRockIronRockBase, WallRockSaltBase ]
+
+- type: entity
+  id: WallRockBasaltSalt
+  parent: [ WallRockBasaltBase, WallRockSaltBase ]
+
+- type: entity
+  id: WallRockSnowSalt
+  parent: [ WallRockSnowBase, WallRockSaltBase ]
+
+- type: entity
+  id: WallRockSandSalt
+  parent: [ WallRockSandBase, WallRockSaltBase ]
+
+- type: entity
+  id: WallRockChromiteSalt
+  parent: [ WallRockChromiteBase, WallRockSaltBase ]
+
+- type: entity
+  id: WallRockAndesiteSalt
+  parent: [ WallRockAndesiteBase, WallRockSaltBase ]

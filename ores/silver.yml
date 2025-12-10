@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockSilverBase
+  description: An ore vein rich with silver.
+  suffix: Silver
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreSilver
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_silver.rsi
+
+- type: entity
+  id: WallRockHonkerSilver
+  parent: [ WallRockHonkerBase, WallRockSilverBase ]
+
+- type: entity
+  id: WallRockAsteroidSilver
+  parent: [ WallRockAsteroidBase, WallRockSilverBase ]
+
+- type: entity
+  id: WallRockIronRockSilver
+  parent: [ WallRockIronRockBase, WallRockSilverBase ]
+
+- type: entity
+  id: WallRockBasaltSilver
+  parent: [ WallRockBasaltBase, WallRockSilverBase ]
+
+- type: entity
+  id: WallRockSnowSilver
+  parent: [ WallRockSnowBase, WallRockSilverBase ]
+
+- type: entity
+  id: WallRockSandSilver
+  parent: [ WallRockSandBase, WallRockSilverBase ]
+
+- type: entity
+  id: WallRockChromiteSilver
+  parent: [ WallRockChromiteBase, WallRockSilverBase ]
+
+- type: entity
+  id: WallRockAndesiteSilver
+  parent: [ WallRockAndesiteBase, WallRockSilverBase ]

@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockCoalBase
+  description: An ore vein rich with coal.
+  suffix: Coal
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreCoal
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_coal.rsi
+
+- type: entity
+  id: WallRockHonkerCoal
+  parent: [ WallRockHonkerBase, WallRockCoalBase ]
+
+- type: entity
+  id: WallRockAsteroidCoal
+  parent: [ WallRockAsteroidBase, WallRockCoalBase ]
+
+- type: entity
+  id: WallRockIronRockCoal
+  parent: [ WallRockIronRockBase, WallRockCoalBase ]
+
+- type: entity
+  id: WallRockBasaltCoal
+  parent: [ WallRockBasaltBase, WallRockCoalBase ]
+
+- type: entity
+  id: WallRockSnowCoal
+  parent: [ WallRockSnowBase, WallRockCoalBase ]
+
+- type: entity
+  id: WallRockSandCoal
+  parent: [ WallRockSandBase, WallRockCoalBase ]
+
+- type: entity
+  id: WallRockChromiteCoal
+  parent: [ WallRockChromiteBase, WallRockCoalBase ]
+
+- type: entity
+  id: WallRockAndesiteCoal
+  parent: [ WallRockAndesiteBase, WallRockCoalBase ]

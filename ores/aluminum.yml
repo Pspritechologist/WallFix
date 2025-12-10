@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockAluminumBase
+  description: An ore vein rich with bauxite.
+  suffix: Aluminum
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreAluminum
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_Aluminum.rsi
+
+- type: entity
+  id: WallRockHonkerAluminum
+  parent: [ WallRockHonkerBase, WallRockAluminumBase ]
+
+- type: entity
+  id: WallRockAsteroidAluminum
+  parent: [ WallRockAsteroidBase, WallRockAluminumBase ]
+
+- type: entity
+  id: WallRockIronRockAluminum
+  parent: [ WallRockIronRockBase, WallRockAluminumBase ]
+
+- type: entity
+  id: WallRockBasaltAluminum
+  parent: [ WallRockBasaltBase, WallRockAluminumBase ]
+
+- type: entity
+  id: WallRockSnowAluminum
+  parent: [ WallRockSnowBase, WallRockAluminumBase ]
+
+- type: entity
+  id: WallRockSandAluminum
+  parent: [ WallRockSandBase, WallRockAluminumBase ]
+
+- type: entity
+  id: WallRockChromiteAluminum
+  parent: [ WallRockChromiteBase, WallRockAluminumBase ]
+
+- type: entity
+  id: WallRockAndesiteAluminum
+  parent: [ WallRockAndesiteBase, WallRockAluminumBase ]

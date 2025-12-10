@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockDiamondBase
+  description: An ore vein rich with diamonds.
+  suffix: Diamond
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreDiamond
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_diamond.rsi
+
+- type: entity
+  id: WallRockHonkerDiamond
+  parent: [ WallRockHonkerBase, WallRockDiamondBase ]
+
+- type: entity
+  id: WallRockAsteroidDiamond
+  parent: [ WallRockAsteroidBase, WallRockDiamondBase ]
+
+- type: entity
+  id: WallRockIronRockDiamond
+  parent: [ WallRockIronRockBase, WallRockDiamondBase ]
+
+- type: entity
+  id: WallRockBasaltDiamond
+  parent: [ WallRockBasaltBase, WallRockDiamondBase ]
+
+- type: entity
+  id: WallRockSnowDiamond
+  parent: [ WallRockSnowBase, WallRockDiamondBase ]
+
+- type: entity
+  id: WallRockSandDiamond
+  parent: [ WallRockSandBase, WallRockDiamondBase ]
+
+- type: entity
+  id: WallRockChromiteDiamond
+  parent: [ WallRockChromiteBase, WallRockDiamondBase ]
+
+- type: entity
+  id: WallRockAndesiteDiamond
+  parent: [ WallRockAndesiteBase, WallRockDiamondBase ]

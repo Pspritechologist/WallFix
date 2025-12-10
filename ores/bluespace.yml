@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockBluespaceBase
+  description: An ore vein rich with bluespace crystals.
+  suffix: Bluespace
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreBluespace
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_bluespace.rsi
+
+- type: entity
+  id: WallRockHonkerBluespace
+  parent: [ WallRockHonkerBase, WallRockBluespaceBase ]
+
+- type: entity
+  id: WallRockAsteroidBluespace
+  parent: [ WallRockAsteroidBase, WallRockBluespaceBase ]
+
+- type: entity
+  id: WallRockIronRockBluespace
+  parent: [ WallRockIronRockBase, WallRockBluespaceBase ]
+
+- type: entity
+  id: WallRockBasaltBluespace
+  parent: [ WallRockBasaltBase, WallRockBluespaceBase ]
+
+- type: entity
+  id: WallRockSnowBluespace
+  parent: [ WallRockSnowBase, WallRockBluespaceBase ]
+
+- type: entity
+  id: WallRockSandBluespace
+  parent: [ WallRockSandBase, WallRockBluespaceBase ]
+
+- type: entity
+  id: WallRockChromiteBluespace
+  parent: [ WallRockChromiteBase, WallRockBluespaceBase ]
+
+- type: entity
+  id: WallRockAndesiteBluespace
+  parent: [ WallRockAndesiteBase, WallRockBluespaceBase ]

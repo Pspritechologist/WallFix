@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockBananiumBase
+  description: An ore vein rich with bananium.
+  suffix: Bananium
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreBananium
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_bananium.rsi
+
+- type: entity
+  id: WallRockHonkerBananium
+  parent: [ WallRockHonkerBase, WallRockBananiumBase ]
+
+- type: entity
+  id: WallRockAsteroidBananium
+  parent: [ WallRockAsteroidBase, WallRockBananiumBase ]
+
+- type: entity
+  id: WallRockIronRockBananium
+  parent: [ WallRockIronRockBase, WallRockBananiumBase ]
+
+- type: entity
+  id: WallRockBasaltBananium
+  parent: [ WallRockBasaltBase, WallRockBananiumBase ]
+
+- type: entity
+  id: WallRockSnowBananium
+  parent: [ WallRockSnowBase, WallRockBananiumBase ]
+
+- type: entity
+  id: WallRockSandBananium
+  parent: [ WallRockSandBase, WallRockBananiumBase ]
+
+- type: entity
+  id: WallRockChromiteBananium
+  parent: [ WallRockChromiteBase, WallRockBananiumBase ]
+
+- type: entity
+  id: WallRockAndesiteBananium
+  parent: [ WallRockAndesiteBase, WallRockBananiumBase ]

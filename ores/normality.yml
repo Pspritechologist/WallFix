@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockNormalityBase
+  description: An ore vein rich with normality crystals.
+  suffix: Normality
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreNormality
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_normality.rsi
+
+- type: entity
+  id: WallRockHonkerNormality
+  parent: [ WallRockHonkerBase, WallRockNormalityBase ]
+
+- type: entity
+  id: WallRockAsteroidNormality
+  parent: [ WallRockAsteroidBase, WallRockNormalityBase ]
+
+- type: entity
+  id: WallRockIronRockNormality
+  parent: [ WallRockIronRockBase, WallRockNormalityBase ]
+
+- type: entity
+  id: WallRockBasaltNormality
+  parent: [ WallRockBasaltBase, WallRockNormalityBase ]
+
+- type: entity
+  id: WallRockSnowNormality
+  parent: [ WallRockSnowBase, WallRockNormalityBase ]
+
+- type: entity
+  id: WallRockSandNormality
+  parent: [ WallRockSandBase, WallRockNormalityBase ]
+
+- type: entity
+  id: WallRockChromiteNormality
+  parent: [ WallRockChromiteBase, WallRockNormalityBase ]
+
+- type: entity
+  id: WallRockAndesiteNormality
+  parent: [ WallRockAndesiteBase, WallRockNormalityBase ]

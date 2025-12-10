@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockCopperBase
+  description: An ore vein rich with native copper.
+  suffix: Copper
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreCopper
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_copper.rsi
+
+- type: entity
+  id: WallRockHonkerCopper
+  parent: [ WallRockHonkerBase, WallRockCopperBase ]
+
+- type: entity
+  id: WallRockAsteroidCopper
+  parent: [ WallRockAsteroidBase, WallRockCopperBase ]
+
+- type: entity
+  id: WallRockIronRockCopper
+  parent: [ WallRockIronRockBase, WallRockCopperBase ]
+
+- type: entity
+  id: WallRockBasaltCopper
+  parent: [ WallRockBasaltBase, WallRockCopperBase ]
+
+- type: entity
+  id: WallRockSnowCopper
+  parent: [ WallRockSnowBase, WallRockCopperBase ]
+
+- type: entity
+  id: WallRockSandCopper
+  parent: [ WallRockSandBase, WallRockCopperBase ]
+
+- type: entity
+  id: WallRockChromiteCopper
+  parent: [ WallRockChromiteBase, WallRockCopperBase ]
+
+- type: entity
+  id: WallRockAndesiteCopper
+  parent: [ WallRockAndesiteBase, WallRockCopperBase ]

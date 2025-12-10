@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockGoldBase
+  description: An ore vein rich with gold.
+  suffix: Gold
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreGold
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_gold.rsi
+
+- type: entity
+  id: WallRockHonkerGold
+  parent: [ WallRockHonkerBase, WallRockGoldBase ]
+
+- type: entity
+  id: WallRockAsteroidGold
+  parent: [ WallRockAsteroidBase, WallRockGoldBase ]
+
+- type: entity
+  id: WallRockIronRockGold
+  parent: [ WallRockIronRockBase, WallRockGoldBase ]
+
+- type: entity
+  id: WallRockBasaltGold
+  parent: [ WallRockBasaltBase, WallRockGoldBase ]
+
+- type: entity
+  id: WallRockSnowGold
+  parent: [ WallRockSnowBase, WallRockGoldBase ]
+
+- type: entity
+  id: WallRockSandGold
+  parent: [ WallRockSandBase, WallRockGoldBase ]
+
+- type: entity
+  id: WallRockChromiteGold
+  parent: [ WallRockChromiteBase, WallRockGoldBase ]
+
+- type: entity
+  id: WallRockAndesiteGold
+  parent: [ WallRockAndesiteBase, WallRockGoldBase ]

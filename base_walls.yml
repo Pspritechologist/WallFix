@@ -1,0 +1,259 @@
+- type: entity
+  id: WallRockBase
+  parent: BaseWall
+  components:
+  - type: Transform
+    noRot: true
+  - type: IconSmooth
+    key: walls
+    mode: NoSprite
+  - type: SmoothEdge
+  - type: MiningScannerViewable
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Rock
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 120
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/break_stone.ogg
+          params:
+            volume: -6
+
+- type: entity
+  abstract: true
+  id: WallRockAsteroidBase
+  parent: WallRockBase
+  name: asteroid rock
+  description: An asteroid.
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_asteroid.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore
+
+- type: entity
+  id: WallRockAsteroidMining
+  parent: WallRockAsteroidBase
+  suffix: higher ore yield .33
+  components:
+  - type: OreVein
+    oreChance: 0.33
+    oreRarityPrototypeId: RandomOreDistributionStandard
+
+- type: entity
+  abstract: true
+  id: WallRockHonkerBase
+  parent: WallRockBase
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_honker.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_honker.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_honker.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_honker.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_honker.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore
+
+- type: entity
+  abstract: true
+  id: WallIronRockBase
+  parent: WallRockBase
+  name: ironrock
+  suffix: Low Ore Yield
+  description: A rocky asteroid.
+  components:
+  - type: Icon
+    sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_iron_rock.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore
+
+- type: entity
+  id: WallIronRockMining
+  parent: WallIronRockBase
+  suffix: higher ore yield
+  components:
+  - type: OreVein
+    oreChance: 0.15
+    oreRarityPrototypeId: RandomOreDistributionPoor
+
+- type: entity
+  abstract: true
+  id: WallRockBasaltBase
+  name: basalt
+  parent: WallRockBase
+  components:
+  - type: Icon
+    sprite: /Structures/Walls/Rock/base_basalt.rsi
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_basalt.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_basalt.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_basalt.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_basalt.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_basalt.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore
+
+- type: entity
+  abstract: true
+  id: WallRockSnowBase
+  name: snowdrift
+  parent: WallRockBase
+  components:
+  - type: Icon
+    sprite: /Structures/Walls/Rock/base_snow.rsi
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_snow.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_snow.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_snow.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_snow.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_snow.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore
+
+- type: entity
+  abstract: true
+  id: WallRockSandBase
+  name: sandstone
+  parent: WallRockBase
+  components:
+  - type: Icon
+    sprite: /Structures/Walls/Rock/base_sand.rsi
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_sand.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_sand.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_sand.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_sand.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_sand.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore
+
+- type: entity
+  abstract: true
+  id: WallRockChromiteBase
+  name: chromite
+  parent: WallRockBase
+  components:
+  - type: Icon
+    sprite: /Structures/Walls/Rock/base_chromite.rsi
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_chromite.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_chromite.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_chromite.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_chromite.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_chromite.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore
+
+- type: entity
+  abstract: true
+  id: WallRockAndesiteBase
+  name: andesite
+  parent: WallRockBase
+  components:
+  - type: Icon
+    sprite: /Structures/Walls/Rock/base_andesite.rsi
+  - type: Sprite
+    layers:
+    - state: base
+      sprite: /Structures/Walls/Rock/base_andesite.rsi
+    - map: [ "enum.EdgeLayer.South" ]
+      state: south
+      sprite: /Structures/Walls/Rock/base_andesite.rsi
+    - map: [ "enum.EdgeLayer.East" ]
+      state: east
+      sprite: /Structures/Walls/Rock/base_andesite.rsi
+    - map: [ "enum.EdgeLayer.North" ]
+      state: north
+      sprite: /Structures/Walls/Rock/base_andesite.rsi
+    - map: [ "enum.EdgeLayer.West" ]
+      state: west
+      sprite: /Structures/Walls/Rock/base_andesite.rsi
+    - map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+      state: ore

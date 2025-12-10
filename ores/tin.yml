@@ -1,0 +1,42 @@
+- type: entity
+  id: WallRockTinBase
+  description: An ore vein rich with cassiterite.
+  suffix: Tin
+  components:
+  - type: OreVein
+    oreChance: 1.0
+    currentOre: OreTin
+  - type: Sprite
+    sprite: /Structures/Walls/rock/ore_tin.rsi
+
+- type: entity
+  id: WallRockHonkerTin
+  parent: [ WallRockHonkerBase, WallRockTinBase ]
+
+- type: entity
+  id: WallRockAsteroidTin
+  parent: [ WallRockAsteroidBase, WallRockTinBase ]
+
+- type: entity
+  id: WallRockIronRockTin
+  parent: [ WallRockIronRockBase, WallRockTinBase ]
+
+- type: entity
+  id: WallRockBasaltTin
+  parent: [ WallRockBasaltBase, WallRockIronBase ]
+
+- type: entity
+  id: WallRockSnowIron
+  parent: [ WallRockSnowBase, WallRockIronBase ]
+
+- type: entity
+  id: WallRockSandIron
+  parent: [ WallRockSandBase, WallRockIronBase ]
+
+- type: entity
+  id: WallRockChromiteIron
+  parent: [ WallRockChromiteBase, WallRockIronBase ]
+
+- type: entity
+  id: WallRockAndesiteIron
+  parent: [ WallRockAndesiteBase, WallRockIronBase ]
